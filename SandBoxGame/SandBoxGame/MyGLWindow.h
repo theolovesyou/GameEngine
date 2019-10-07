@@ -4,6 +4,11 @@
 
 class MyGLWindow : public QGLWidget
 {
+	GLuint vertexBufferID;
+
+protected:
+	void initializeGL();
+	void paintGL();
 };
 
 #endif
