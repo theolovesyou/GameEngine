@@ -6,6 +6,13 @@
 using std::cout;
 using std::endl;
 
+static float verts[] =
+{
+	+0.0f, +0.1f,
+	-0.1f, -0.1f,
+	+0.1f, -0.1f,
+};
+
 void MyGLWindow::initializeGL()
 {
 	GLenum errorCode = glewInit();
@@ -14,17 +21,9 @@ void MyGLWindow::initializeGL()
 	// 갯수, 생성한 버퍼 ID를 저장할 공간
 	glGenBuffers(1, &vertexBufferID);
 
-	// glGenBuffers로 생성한 버퍼에 타겟을 할당
-	// GL_ARRAY_BUFFER는 정점에 대한 데이터를 생성
+	// glGenBuffers로 생성한 버퍼에 타겟을 할당. GL_ARRAY_BUFFER는 정점에 대한 데이터를 생성
 	glBindBuffer(GL_ARRAY_BUFFER, vertexBufferID);
-
-	float verts[] =
-	{
-		+0.0f, +0.1f,
-		-0.1f, -0.1f,
-		+0.1f, -0.1f,
-	};
-
+	
 	// 실제 버퍼에 데이터를 넣는다. send those verts to graphic card
 	glBufferData(GL_ARRAY_BUFFER, sizeof(verts), verts, GL_STATIC_DRAW);
 

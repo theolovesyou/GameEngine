@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandBoxGame", "SandBoxGame\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine\Engine\Engine.vcxproj", "{6A23F7AD-C284-4B21-A597-4291652BDFB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineTester", "..\EngineTester\EngineTester.vcxproj", "{95637417-3256-48F0-9A3C-588B1190FAE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +36,14 @@ Global
 		{6A23F7AD-C284-4B21-A597-4291652BDFB3}.Release|x64.Build.0 = Release|x64
 		{6A23F7AD-C284-4B21-A597-4291652BDFB3}.Release|x86.ActiveCfg = Release|Win32
 		{6A23F7AD-C284-4B21-A597-4291652BDFB3}.Release|x86.Build.0 = Release|Win32
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Debug|x64.ActiveCfg = Debug|x64
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Debug|x64.Build.0 = Debug|x64
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Debug|x86.Build.0 = Debug|Win32
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Release|x64.ActiveCfg = Release|x64
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Release|x64.Build.0 = Release|x64
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Release|x86.ActiveCfg = Release|Win32
+		{95637417-3256-48F0-9A3C-588B1190FAE5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
